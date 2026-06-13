@@ -12,7 +12,7 @@ const icons = {
 
 export default function Socialmediaside() {
   return (
-    <div className='fixed left-14 bottom-0 hidden md:flex flex-col items-center gap-4'>
+    <div className='fixed left-14 bottom-0 hidden lg:flex flex-col items-center gap-4'>
       <ul className='flex flex-col items-center gap-6'>
         {socialMedia.map((item) => (
           <li key={item.name}>

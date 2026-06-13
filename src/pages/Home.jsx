@@ -2,7 +2,7 @@ import React from 'react'
 import {email} from '../config'
 export default function Home() {
   return (
-    <section className='my-28'>
+    <section className='my-28 px-6 lg:px-0 lg:ml-16'>
       <h1 className='mb-8 ml-px font-mono text-base font-normal dark:text-[#64ffda]'>Hi There</h1>
       <h2 className='text-6xl font-bold dark:text-[#ccd6f6] leading-[1.1]'>I'm Mohammed</h2>
       <h3 className='text-6xl font-bold mt-4 leading-[0.9] dark:text-[#a8b2d1]'>I build things for the web.</h3>
