@@ -12,7 +12,7 @@ export default function Navbar() {
   }
   return (
     <nav>
-      <div className='md:max-w-333 mx-auto mt-4 py-6 px-6 lg:px-0 flex justify-between items-center dark:text-[#8892b0]'>
+      <div className='md:mr-8 p-6 flex justify-between items-center dark:text-[#8892b0]'>
         <Link to="/" className='text-xl dark:text-[#64ffda] cursor-pointer font-heading'> {"</Med>"} </Link> 
         {/* Desktop Menu */}
         <div className='hidden md:flex space-x-12 font-mono'>
